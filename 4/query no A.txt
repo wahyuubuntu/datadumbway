@@ -1,0 +1,6 @@
+1. tampilkan semua hero 
+SELECT * FROM hero;
+2. tampilkan hero per role, field ditampilkan nama, role, nama hero, deskripsi hero
+SELECT * FROM hero,role WHERE hero.id_role = role.id GROUP BY hero.id_role
+3. tampilkan detail hero berdasarkan id
+SELECT * FROM hero WHERE id=nomor idnya
